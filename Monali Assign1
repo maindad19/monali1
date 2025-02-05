@@ -1,0 +1,93 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "cada6cc6-0c3d-47ab-b9e8-6e8282552c14",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Random List: [34, 67, 46, 1, 80, 95, 31, 26, 47, 65]\n",
+      "Even Numbers: [34, 46, 80, 26]\n"
+     ]
+    }
+   ],
+   "source": [
+    "import random\n",
+    "\n",
+    "# Generate a random list of 10 numbers between 1 and 100\n",
+    "random_list = [random.randint(1, 100) for _ in range(10)]\n",
+    "\n",
+    "# Print the random list\n",
+    "print(\"Random List:\", random_list)\n",
+    "\n",
+    "# Filter and print the even numbers from the list\n",
+    "even_numbers = [num for num in random_list if num % 2 == 0]\n",
+    "\n",
+    "print(\"Even Numbers:\", even_numbers)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0db3bba0-cd2d-4f1b-afd7-188935fb4931",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "cd4cc30d-ad8f-45b8-9aec-e525802ff948",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Reversed string: dlroW olleH\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Creating a string\n",
+    "original_string = \"Hello World\"\n",
+    "# Reversing the entire string\n",
+    "reversed_string = original_string[::-1]\n",
+    "print(\"Reversed string:\", reversed_string)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "962cd8d0-ba94-4bed-84bf-8a8d80f5fbd1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
